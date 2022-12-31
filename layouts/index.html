@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<div class="container mb-5">
+  <section class="section">
+    <div class="columns is-vcentered is-centered">
+      <div class="column">
+        <figure class="image is-128x128 container box p-0">
+          <img src="{{ (resources.Get "images/mopp.png").Permalink }}" alt="mopp">
+        </figure>
+      </div>
+
+      <div class="column has-text-centered-mobile" id="about" >
+        <h1 class="title">mopp</h1>
+        <h2 class="subtitle">Software Engineer.</h2>
+
+        <a title="GitHub" target="_blank" href="https://github.com/mopp">
+          <span class="icon is-large">
+            <i class="mdi mdi-36px mdi-github"></i>
+          </span>
+        </a>
+        <a title="Twitter" target="_blank" href="https://twitter.com/Mopp_jp">
+          <span class="icon is-large">
+            <i class="mdi mdi-36px mdi-twitter"></i>
+          </span>
+        </a>
+        <a title="Scrapbox" target="_blank" href="https://scrapbox.io/mopp/">
+          <span class="icon is-large">
+            <i class="mdi mdi-36px mdi-clipboard-edit-outline"></i>
+          </span>
+        </a>
+        <a title="Qiita" target="_blank" href="https://qiita.com/mopp">
+          <span class="icon is-large">
+            <i class="mdi mdi-36px mdi-file-document"></i>
+          </span>
+        </a>
+        <a title="Blogger" target="_blank" href="https://blog.mopp.jp/">
+          <span class="icon is-large">
+            <i class="mdi mdi-36px mdi-fountain-pen-tip"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section box">
+    <div class="columns is-multiline is-mobile">
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/01.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/02.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/03.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/04.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/05.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/06.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/07.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/08.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/09.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/10.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/11.png").Permalink }}"></figure></div>
+      <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd"><figure class="container box p-0 image is-96x96"><img src="{{ (resources.Get "images/icons/12.png").Permalink }}"></figure></div>
+    </div>
+  </section>
+
+  <!-- See                                                                     -->
+  <!-- https://gohugo.io/templates/homepage/                                   -->
+  <!-- https://gohugo.io/content-management/organization/#index-pages-_indexmd -->
+  {{.Content}}
+</div>
+
+{{ end }}
