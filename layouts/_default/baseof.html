@@ -10,19 +10,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="{{ (resources.Get "sass/main.sass" | resources.ToCSS | resources.Minify).Permalink }}">
-
-    {{ template "_internal/google_analytics_async.html" . }}
   </head>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NM3SC287GG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-NM3SC287GG');
-  </script>
 
   <body>
     {{ block "main" . }}
