@@ -7,7 +7,7 @@ hasCJKLanguage = true
 
 disableKinds = ['page', 'section', 'taxonomy', 'term', 'sitemap']
 
-copyright = "&copy;2016-2023 Copyright mopp, All Rights Reserved."
+copyright = "&copy;2016-2024 Copyright mopp, All Rights Reserved."
 
 [outputs]
   home = ['HTML']
